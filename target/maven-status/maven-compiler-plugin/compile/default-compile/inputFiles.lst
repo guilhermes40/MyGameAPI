@@ -1,0 +1,13 @@
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Controller/EmailsController.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Controller/MessagesController.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Controller/NamesController.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Model/Emails.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Model/Messages.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Model/Names.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Repository/EmailsRepository.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Repository/MessageRepository.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Repository/NamesRepository.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Service/EmailsService.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Service/MessagesService.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/Service/NamesService.java
+/Users/admin/IdeaProjects/spring-boot-A3/src/main/java/com/springforgame/springboota3/SpringBootA3Application.java
