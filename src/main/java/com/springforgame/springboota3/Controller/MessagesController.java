@@ -28,4 +28,19 @@ public class MessagesController {
         return messagesService.getMessagesById(id);
     }
 
+    @PostMapping
+    public void AddNewMessage(@RequestBody Messages messages){
+        messagesService.AddNewMessage(messages);
+    }
+
+    @PutMapping("{id}")
+    public void UpdateMessage(@PathVariable int id,@RequestBody Messages messages){
+        messagesService.UpdateMessage(id, messages);
+    }
+
+    @DeleteMapping("{id}")
+    public void deleteMessageById(@PathVariable int id){
+        messagesService.DeleteMessageById(id);
+    }
+
 }

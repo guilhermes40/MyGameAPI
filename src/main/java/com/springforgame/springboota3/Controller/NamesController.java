@@ -26,4 +26,20 @@ public class NamesController {
         return namesService.getNamesById(id);
     }
 
+    @PostMapping
+    public void addNewNames(@RequestBody Names names){
+        namesService.addNewNames(names);
+    }
+
+    @PutMapping("{id}")
+    public void UpdateNames(@PathVariable int id,@RequestBody Names names){
+        namesService.UpdateNames(id, names);
+    }
+
+    @DeleteMapping("{id}")
+    public void DeleteNames(@PathVariable int id){
+        namesService.deleteNames(id);
+    }
+
+
 }

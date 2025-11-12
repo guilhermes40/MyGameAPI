@@ -26,5 +26,21 @@ public class EmailsController {
         return emailsService.GetEmailById(id);
     }
 
+    @PostMapping
+    public void AddNewEmail(@RequestBody Emails emails){
+        emailsService.AddNewEmail(emails);
+    }
+
+
+    @PutMapping("{id}")
+    public void UpdateEmail(@PathVariable int id,@RequestBody Emails email){
+        emailsService.UpdateEmail(id,email);
+    }
+
+    @DeleteMapping("{id}")
+    public void deleteEmail(int id){
+        emailsService.DeleteEmailById(id);
+    }
+
 
 }
